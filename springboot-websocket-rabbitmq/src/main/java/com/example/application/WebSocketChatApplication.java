@@ -1,13 +1,13 @@
-package com.example.springbootwebsocketrabbitmq;
+package com.example.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootWebsocketRabbitmqApplication {
+public class WebSocketChatApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootWebsocketRabbitmqApplication.class, args);
+		SpringApplication.run(WebSocketChatApplication.class, args);
 	}
 
 }
